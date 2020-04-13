@@ -1,8 +1,9 @@
 # philips-air-purifier
 Python module to connect with Philips air purifiers
 
-[![GitHub](https://img.shields.io/github/license/firescry/philips-air-purifier.svg)](LICENSE)
 [![Build Status](https://travis-ci.com/firescry/philips-air-purifier.svg?branch=master)](https://travis-ci.com/firescry/philips-air-purifier)
+[![codecov](https://codecov.io/gh/firescry/philips-air-purifier/branch/master/graph/badge.svg)](https://codecov.io/gh/firescry/philips-air-purifier)
+[![GitHub](https://img.shields.io/github/license/firescry/philips-air-purifier?color=blue)](LICENSE)
 
 This module's implementation is based on [py-air-control](https://github.com/rgerganov/py-air-control) command line
 tool.
