@@ -1,11 +1,4 @@
-try:
-    from secrets import randbits
-except ImportError:
-    # Workaround for Python < 3.6 (3.5 is default on Raspbian)
-    from random import SystemRandom
-
-    system_random = SystemRandom()
-    randbits = system_random.getrandbits
+from secrets import randbits
 
 # Pre-shared values for Diffie-Hellman key exchange - Philips Air Purifier
 PHILIPS_BASE = ('a4d1cbd5c3fd34126765a442efb99905f8104dd258ac507fd6406cff14266d31'
